@@ -1,243 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Política de privacidad · AwsDevLayer</title>
-  <meta name="description" content="Política de privacidad de AwsDevLayer y de las páginas web que crea para negocios del conjunto.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap">
-  <style>
-    :root {
-      --color-bg: #ffffff;
-      --color-surface-alt: #eaf6ef;
-      --color-text: #1f2d2a;
-      --color-muted: #5f6f6a;
-      --color-primary: #157a4a;
-      --color-border: rgba(0, 0, 0, 0.08);
-      --font-display: 'Poppins', sans-serif;
-      --font-body: 'Inter', sans-serif;
-      --container: 760px;
-    }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de privacidad · DeevLayer</title>
+    <meta
+      name="description"
+      content="Política de privacidad de DeevLayer y de las páginas web que crea para negocios del conjunto."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+    />
+    <style>
+      :root {
+        --color-bg: #ffffff;
+        --color-surface-alt: #eaf6ef;
+        --color-text: #1f2d2a;
+        --color-muted: #5f6f6a;
+        --color-primary: #157a4a;
+        --color-border: rgba(0, 0, 0, 0.08);
+        --font-display: "Poppins", sans-serif;
+        --font-body: "Inter", sans-serif;
+        --container: 760px;
+      }
 
-    * {
-      box-sizing: border-box;
-    }
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      margin: 0;
-      font-family: var(--font-body);
-      font-size: 1rem;
-      line-height: 1.65;
-      color: var(--color-text);
-      background: var(--color-bg);
-      -webkit-font-smoothing: antialiased;
-    }
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        font-size: 1rem;
+        line-height: 1.65;
+        color: var(--color-text);
+        background: var(--color-bg);
+        -webkit-font-smoothing: antialiased;
+      }
 
-    .container {
-      max-width: var(--container);
-      margin-inline: auto;
-      padding-inline: 20px;
-    }
+      .container {
+        max-width: var(--container);
+        margin-inline: auto;
+        padding-inline: 20px;
+      }
 
-    a {
-      color: var(--color-primary);
-    }
+      a {
+        color: var(--color-primary);
+      }
 
-    code {
-      background: var(--color-surface-alt);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
+      code {
+        background: var(--color-surface-alt);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.9em;
+      }
 
-    .page-header {
-      padding-block: 48px 32px;
-      background: var(--color-surface-alt);
-      border-bottom: 1px solid var(--color-border);
-    }
+      .page-header {
+        padding-block: 48px 32px;
+        background: var(--color-surface-alt);
+        border-bottom: 1px solid var(--color-border);
+      }
 
-    .brand {
-      font-family: var(--font-display);
-      font-weight: 700;
-      color: var(--color-primary);
-      margin: 0 0 12px;
-      font-size: 0.95rem;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-    }
+      .brand {
+        font-family: var(--font-display);
+        font-weight: 700;
+        color: var(--color-primary);
+        margin: 0 0 12px;
+        font-size: 0.95rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
 
-    .page-header h1 {
-      font-family: var(--font-display);
-      font-weight: 600;
-      font-size: clamp(1.8rem, 5vw, 2.4rem);
-      margin: 0 0 12px;
-      line-height: 1.15;
-    }
+      .page-header h1 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-size: clamp(1.8rem, 5vw, 2.4rem);
+        margin: 0 0 12px;
+        line-height: 1.15;
+      }
 
-    .updated {
-      color: var(--color-muted);
-      margin: 0;
-      font-size: 0.9rem;
-    }
+      .updated {
+        color: var(--color-muted);
+        margin: 0;
+        font-size: 0.9rem;
+      }
 
-    .content {
-      padding-block: 40px 64px;
-    }
+      .content {
+        padding-block: 40px 64px;
+      }
 
-    .content > p:first-child {
-      color: var(--color-muted);
-      font-size: 1.05rem;
-    }
+      .content > p:first-child {
+        color: var(--color-muted);
+        font-size: 1.05rem;
+      }
 
-    section {
-      margin-top: 36px;
-    }
+      section {
+        margin-top: 36px;
+      }
 
-    section h2 {
-      font-family: var(--font-display);
-      font-weight: 600;
-      font-size: 1.25rem;
-      margin: 0 0 12px;
-    }
+      section h2 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin: 0 0 12px;
+      }
 
-    section p,
-    section li {
-      color: var(--color-text);
-    }
+      section p,
+      section li {
+        color: var(--color-text);
+      }
 
-    section ul {
-      margin: 0;
-      padding-left: 1.3em;
-    }
+      section ul {
+        margin: 0;
+        padding-left: 1.3em;
+      }
 
-    section li + li {
-      margin-top: 8px;
-    }
+      section li + li {
+        margin-top: 8px;
+      }
 
-    .page-footer {
-      padding-block: 24px;
-      border-top: 1px solid var(--color-border);
-      text-align: center;
-    }
+      .page-footer {
+        padding-block: 24px;
+        border-top: 1px solid var(--color-border);
+        text-align: center;
+      }
 
-    .page-footer p {
-      margin: 0;
-      color: var(--color-muted);
-      font-size: 0.85rem;
-    }
-  </style>
-</head>
-<body>
-  <header class="page-header">
-    <div class="container">
-      <p class="brand">AwsDevLayer</p>
-      <h1>Política de privacidad</h1>
-      <p class="updated">Última actualización: 17 de septiembre de 2026</p>
-    </div>
-  </header>
+      .page-footer p {
+        margin: 0;
+        color: var(--color-muted);
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <p class="brand">DeevLayer</p>
+        <h1>Política de privacidad</h1>
+        <p class="updated">Última actualización: 17 de septiembre de 2026</p>
+      </div>
+    </header>
 
-  <main class="container content">
-    <p>
-      Esta política aplica a la página de ventas de AwsDevLayer y a las páginas web de negocios
-      del conjunto que AwsDevLayer crea y publica (por ejemplo, en direcciones como
-      <code>awsdevlayer.pages.dev/nombre-del-negocio</code>). Explica de forma simple qué
-      información se procesa cuando visitas alguna de estas páginas.
-    </p>
-
-    <section>
-      <h2>Resumen breve</h2>
+    <main class="container content">
       <p>
-        Estas páginas son sitios estáticos: no tienen formularios, no piden registro ni guardan
-        contraseñas, y no usan cookies propias. No recopilamos, vendemos ni compartimos tus datos
-        personales. Los botones de "Pedir por WhatsApp" abren una conversación directamente en tu
-        WhatsApp; esa conversación y sus datos quedan entre tú y el negocio, no pasan por nosotros.
+        Esta política aplica a la página de ventas de DeevLayer y a las páginas
+        web de negocios del conjunto que DeevLayer crea y publica (por ejemplo,
+        en direcciones como
+        <code>awsdevlayer.pages.dev/nombre-del-negocio</code>). Explica de forma
+        simple qué información se procesa cuando visitas alguna de estas
+        páginas.
       </p>
-    </section>
 
-    <section>
-      <h2>Qué datos NO recopilamos</h2>
-      <ul>
-        <li>No hay formularios de contacto ni de registro en estas páginas.</li>
-        <li>No pedimos ni almacenamos nombres, correos, teléfonos ni datos de pago.</li>
-        <li>No usamos cookies propias de seguimiento ni de publicidad.</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Resumen breve</h2>
+        <p>
+          Estas páginas son sitios estáticos: no tienen formularios, no piden
+          registro ni guardan contraseñas, y no usan cookies propias. No
+          recopilamos, vendemos ni compartimos tus datos personales. Los botones
+          de "Pedir por WhatsApp" abren una conversación directamente en tu
+          WhatsApp; esa conversación y sus datos quedan entre tú y el negocio,
+          no pasan por nosotros.
+        </p>
+      </section>
 
-    <section>
-      <h2>Servicios de terceros que sí intervienen</h2>
-      <p>Aunque nosotros no recopilamos datos, estas páginas cargan algunos recursos externos:</p>
-      <ul>
-        <li>
-          <strong>Hosting (Cloudflare Pages):</strong> el proveedor donde vive el sitio procesa
-          automáticamente información técnica básica de cada visita (como la dirección IP) para
-          poder entregar la página, según su propia política de privacidad.
-        </li>
-        <li>
-          <strong>Analítica (Cloudflare Web Analytics):</strong> algunas páginas usan esta
-          herramienta para contar visitas de forma agregada. No usa cookies ni identifica
-          personas.
-        </li>
-        <li>
-          <strong>Tipografías (Google Fonts):</strong> las letras de estas páginas se cargan desde
-          los servidores de Google, que puede registrar tu dirección IP al entregarlas, según la
-          política de privacidad de Google.
-        </li>
-        <li>
-          <strong>WhatsApp, Instagram, Facebook y TikTok:</strong> los botones y enlaces a estas
-          redes te llevan a esas plataformas fuera de nuestro sitio. Lo que compartas ahí se rige
-          por la política de privacidad de cada una, no por esta.
-        </li>
-      </ul>
-    </section>
+      <section>
+        <h2>Qué datos NO recopilamos</h2>
+        <ul>
+          <li>
+            No hay formularios de contacto ni de registro en estas páginas.
+          </li>
+          <li>
+            No pedimos ni almacenamos nombres, correos, teléfonos ni datos de
+            pago.
+          </li>
+          <li>No usamos cookies propias de seguimiento ni de publicidad.</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Cookies</h2>
-      <p>
-        Estas páginas no instalan cookies propias. Los servicios de terceros mencionados arriba
-        podrían usar las suyas según sus propias políticas; no tenemos control sobre eso.
-      </p>
-    </section>
+      <section>
+        <h2>Servicios de terceros que sí intervienen</h2>
+        <p>
+          Aunque nosotros no recopilamos datos, estas páginas cargan algunos
+          recursos externos:
+        </p>
+        <ul>
+          <li>
+            <strong>Hosting (Cloudflare Pages):</strong> el proveedor donde vive
+            el sitio procesa automáticamente información técnica básica de cada
+            visita (como la dirección IP) para poder entregar la página, según
+            su propia política de privacidad.
+          </li>
+          <li>
+            <strong>Analítica (Cloudflare Web Analytics):</strong> algunas
+            páginas usan esta herramienta para contar visitas de forma agregada.
+            No usa cookies ni identifica personas.
+          </li>
+          <li>
+            <strong>Tipografías (Google Fonts):</strong> las letras de estas
+            páginas se cargan desde los servidores de Google, que puede
+            registrar tu dirección IP al entregarlas, según la política de
+            privacidad de Google.
+          </li>
+          <li>
+            <strong>WhatsApp, Instagram, Facebook y TikTok:</strong> los botones
+            y enlaces a estas redes te llevan a esas plataformas fuera de
+            nuestro sitio. Lo que compartas ahí se rige por la política de
+            privacidad de cada una, no por esta.
+          </li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Seguridad</h2>
-      <p>
-        Todas las páginas se sirven bajo HTTPS (conexión cifrada). Al no manejar formularios ni
-        bases de datos propias, no almacenamos información sensible que proteger de nuestro lado.
-      </p>
-    </section>
+      <section>
+        <h2>Cookies</h2>
+        <p>
+          Estas páginas no instalan cookies propias. Los servicios de terceros
+          mencionados arriba podrían usar las suyas según sus propias políticas;
+          no tenemos control sobre eso.
+        </p>
+      </section>
 
-    <section>
-      <h2>Tus derechos</h2>
-      <p>
-        Como no recopilamos datos personales directamente, no tenemos una base de datos de
-        usuarios que consultar, corregir o eliminar. Si tienes dudas sobre algún dato que un
-        negocio específico haya recibido por WhatsApp, contáctalo directamente a él.
-      </p>
-    </section>
+      <section>
+        <h2>Seguridad</h2>
+        <p>
+          Todas las páginas se sirven bajo HTTPS (conexión cifrada). Al no
+          manejar formularios ni bases de datos propias, no almacenamos
+          información sensible que proteger de nuestro lado.
+        </p>
+      </section>
 
-    <section>
-      <h2>Cambios a esta política</h2>
-      <p>
-        Podemos actualizar este texto si cambia algún servicio que usamos. La fecha de "Última
-        actualización" en la parte de arriba siempre refleja la versión vigente.
-      </p>
-    </section>
+      <section>
+        <h2>Tus derechos</h2>
+        <p>
+          Como no recopilamos datos personales directamente, no tenemos una base
+          de datos de usuarios que consultar, corregir o eliminar. Si tienes
+          dudas sobre algún dato que un negocio específico haya recibido por
+          WhatsApp, contáctalo directamente a él.
+        </p>
+      </section>
 
-    <section>
-      <h2>Contacto</h2>
-      <p>
-        ¿Preguntas sobre esta política? Escríbenos por
-        <a href="https://wa.me/573116407134" target="_blank" rel="noopener">WhatsApp</a>.
-      </p>
-    </section>
-  </main>
+      <section>
+        <h2>Cambios a esta política</h2>
+        <p>
+          Podemos actualizar este texto si cambia algún servicio que usamos. La
+          fecha de "Última actualización" en la parte de arriba siempre refleja
+          la versión vigente.
+        </p>
+      </section>
 
-  <footer class="page-footer">
-    <div class="container">
-      <p>&copy; 2026 AwsDevLayer</p>
-    </div>
-  </footer>
-</body>
+      <section>
+        <h2>Contacto</h2>
+        <p>
+          ¿Preguntas sobre esta política? Escríbenos por
+          <a href="https://wa.me/573116407134" target="_blank" rel="noopener"
+            >WhatsApp</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>&copy; 2026 DeevLayer</p>
+      </div>
+    </footer>
+  </body>
 </html>
